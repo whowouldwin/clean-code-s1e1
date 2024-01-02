@@ -16,7 +16,7 @@ body {
   width: 100%;
 }
 
-.matrix-info .matrix-info__details-link {
+.matrix-info .matrix__link {
   font-family: fantasy, cursive;
 }
 
@@ -37,7 +37,7 @@ body {
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.task-input {
   display: flex;
 }
 
