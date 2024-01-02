@@ -5,27 +5,27 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.matrix-info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.matrix-info img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.matrix-info .matrix-info__details-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { text-align: center;
+  .matrix-info { text-align: center;
   }
 }
 
-.centered-main-page-element {
+.todo-app {
   display: block;
   width: 500px;
   margin: 0 auto 0;
