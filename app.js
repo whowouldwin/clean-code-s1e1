@@ -124,6 +124,9 @@ var taskCompleted=function(){
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
 
+    var label = listItem.querySelector("label");
+    label.classList.add("completed-task__label");
+
 }
 
 
@@ -135,6 +138,9 @@ var taskIncomplete=function(){
     var listItem=this.parentNode;
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
+
+    var label = listItem.querySelector("label");
+    label.classList.remove("completed-task__label")
 }
 
 

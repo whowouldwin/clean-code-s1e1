@@ -105,6 +105,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -138,14 +139,17 @@ li > label {
 li > input[type="text"] {
   width: 226px
 }
+
 .app__button_delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .app__button_delete img:hover {
   transform: rotateZ(0);
 }
+
 /* Completed */
 .completed-task__label {
   text-decoration: line-through;
