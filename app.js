@@ -15,9 +15,10 @@ var completedTasksHolder=document.getElementById("completed-tasks");//completed-
 
 
 //New task list item
-var createNewTaskElement=function(taskString){
+var createNewTaskElement=function(taskString, isEditMode = false){
 
     var listItem=document.createElement("li");
+    listItem.className = isEditMode ? "task-list__item editMode" : "task-list__item";
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
@@ -38,7 +39,7 @@ var createNewTaskElement=function(taskString){
     //Each elements, needs appending
     checkBox.type="checkbox";
     editInput.type="text";
-    editInput.className="task";
+    editInput.className="task-input__field ";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="edit";

@@ -1,47 +1,4 @@
 /* Basic Style */
-.page {
-  background-color: #f8f8f8;
-  color: #333;
-  font-family: Lato, sans-serif;
-}
-
-.matrix-info {
-  width: 500px;
-  margin: 0 auto;
-  display: block;
-  text-align: right;
-}
-
-.matrix-info img {
-  width: 100%;
-}
-
-.matrix-info .matrix__link {
-  font-family: fantasy, cursive;
-}
-
-@media (max-width: 768px) {
-  .matrix-info {
-    text-align: center;
-  }
-}
-
-.todo-app {
-  display: block;
-  width: 500px;
-  margin: 0 auto 0;
-}
-
-.task {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1
-}
-
-.task-input {
-  display: flex;
-}
-
 ul {
   margin: 0;
   padding: 0px;
@@ -70,7 +27,6 @@ button {
 button:hover {
   color: #3a3a3a;
 }
-
 /* Heading */
 h3 {
   color: #333;
@@ -81,6 +37,63 @@ h3 {
   margin: 0;
   text-transform: uppercase;
 }
+
+.page {
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
+
+.matrix-info {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: right;
+}
+
+.matrix-info__img {
+  width: 100%;
+}
+
+.matrix__link {
+  font-family: fantasy, cursive;
+}
+
+@media (max-width: 768px) {
+  .matrix-info {
+    text-align: center;
+  }
+}
+
+.todo-app {
+  display: block;
+  width: 500px;
+  margin: 0 auto 0;
+}
+.task-input {
+  display: flex;
+}
+
+
+
+
+
+
+
+.task {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1
+}
+.task-input__field {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1
+}
+
+
+
+
 
 input[type="text"] {
   margin: 0;
